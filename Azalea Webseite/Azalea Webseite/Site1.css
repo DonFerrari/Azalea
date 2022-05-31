@@ -1,0 +1,94 @@
+
+
+.header {
+    height: 15%;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    border: 3.5px solid black;
+  }
+
+  .dropbutton {
+    background-color: rgb(68, 67, 66);
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border-spacing: 2px;
+    border: 1px solid black;
+    margin-top: 35px;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(68, 67, 66);
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 254, 254);
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(51, 47, 47);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbutton {
+    background-color: rgb(77, 73, 72);
+  }
+
+  .flexcontainer{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .AutoBild{
+    width: 800px;
+    height: 410px;
+  }
+
+  .AutoText{
+    margin-top: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  footer{
+    margin-top:50px;
+    background-color: rgb(48, 48, 48);
+  }
+  
+  .ContactFlexContainer{
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FooterText{
+    margin-left: 50px;
+    font-size: medium;
+    color: white;
+  }
